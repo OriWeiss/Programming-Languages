@@ -1,0 +1,94 @@
+// * Author: Ori Weiss
+// * Date 10/9/2018
+// * Comp 232
+// */
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/cmake-build-debug/scanner" config.txt
+firstvar = 1;
+secondvar = 2;
+repeat (10)
+ thirdvar = 2 * (firstvar + secondvar) / (firstvar + 2);
+repeat (firstvar + 2 * secondvar)
+ repeat (thirdvar)
+  print firstvar;firstvar = 1;
+secondvar = 2;
+repeat (10)
+ thirdvar = 2 * (firstvar + secondvar) / (firstvar + 2);
+repeat (firstvar + 2 * secondvar)
+ repeat (thirdvar)
+  print firstvar;{IDENT, firstvar}
+{ASSIGNMENT, =}
+{NUMBER, 1}
+{SEMICOLON, ;}
+{IDENT, secondvar}
+{ASSIGNMENT, =}
+{NUMBER, 2}
+{SEMICOLON, ;}
+{REPEAT, repeat}
+{LPAREN, (}
+{NUMBER, 10}
+{RPAREN, )}
+{IDENT, thirdvar}
+{ASSIGNMENT, =}
+{NUMBER, 2}
+{MULT, *}
+{LPAREN, (}
+{IDENT, firstvar}
+{PLUS, +}
+{IDENT, secondvar}
+{RPAREN, )}
+{DIV, /}
+{LPAREN, (}
+{IDENT, firstvar}
+{PLUS, +}
+{NUMBER, 2}
+{RPAREN, )}
+{SEMICOLON, ;}
+{REPEAT, repeat}
+{LPAREN, (}
+{IDENT, firstvar}
+{PLUS, +}
+{NUMBER, 2}
+{MULT, *}
+{IDENT, secondvar}
+{RPAREN, )}
+{REPEAT, repeat}
+{LPAREN, (}
+{IDENT, thirdvar}
+{RPAREN, )}
+{PRINT, print}
+{IDENT, firstvar}
+{SEMICOLON, ;}
+
+
+TEST 2
+
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/cmake-build-debug/scanner" config.txt
+hello world and you print how was your day 13323 ( ) = * + ;
+hello world and you print how was your day 13323 ( ) = * + ;
+{IDENT, hello}
+{IDENT, world}
+{IDENT, and}
+{IDENT, you}
+{PRINT, print}
+{IDENT, how}
+{IDENT, was}
+{IDENT, your}
+{IDENT, day}
+{NUMBER, 13323}
+{LPAREN, (}
+{RPAREN, )}
+{ASSIGNMENT, =}
+{MULT, *}
+{PLUS, +}
+{SEMICOLON, ;}
+\
+\
+{INVALID, \}
+.
+.
+{INVALID, .}
+/
+/
+{DIV, /}

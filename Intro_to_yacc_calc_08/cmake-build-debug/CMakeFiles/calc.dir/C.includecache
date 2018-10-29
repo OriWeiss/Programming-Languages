@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/calc.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+math.h
+-
+calcParser.h
+../src/calcParser.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/cmake-build-debug/calcParser.c
+calc.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/cmake-build-debug/calc.h
+stddef.h
+-
+libintl.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/cmake-build-debug/calcScanner.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+calc.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/cmake-build-debug/calc.h
+unistd.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/src/calc.c
+calc.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/src/calc.h
+math.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/src/calc.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+math.h
+-
+calcParser.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/src/calcParser.h
+
+calcParser.h
+

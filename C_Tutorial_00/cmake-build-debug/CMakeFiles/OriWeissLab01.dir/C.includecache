@@ -1,0 +1,144 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._argc-argv.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array-arg.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array-ptr.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._file.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._functions.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._hello.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._if-then-else.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._mem-alloc.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._pointer.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg-2.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg-3.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-func.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-problems.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ref-arg.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._strings.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._struct.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._type-conv.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._types.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/argc-argv.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array-arg.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array-ptr.c
+stdio.h
+-
+stdlib.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/calc.c
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/file.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/functions.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/hello.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/if-then-else.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/mem-alloc.c
+stdio.h
+-
+stdlib.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/pointer.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg-2.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg-3.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-func.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-problems.c
+stdio.h
+-
+stdlib.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ref-arg.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/strings.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/struct.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/type-conv.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/types.c
+stdio.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/words.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+

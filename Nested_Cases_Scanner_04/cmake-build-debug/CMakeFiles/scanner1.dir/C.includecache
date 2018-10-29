@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/main.c
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/scanner.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/scanner.c
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/scanner.h
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/scanner.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeisslab4/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+

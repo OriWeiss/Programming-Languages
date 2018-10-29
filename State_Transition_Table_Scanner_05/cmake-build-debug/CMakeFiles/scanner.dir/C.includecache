@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/src/main.c
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/src/scanner.h
+unistd.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+ctype.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/src/scanner_transition_table.c
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab05/src/scanner.h
+

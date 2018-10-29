@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OriWeissLab01"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OriWeissLab01">
+				<Option output="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/OriWeissLab01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 OriWeissLab01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OriWeissLab01/fast">
+				<Option output="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/OriWeissLab01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 OriWeissLab01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Ori&apos;s\ Lenovo/Desktop/School/comp_232/OriWeissLab01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._argc-argv.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array-ptr.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._array.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._file.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._functions.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._hello.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._if-then-else.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._mem-alloc.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._pointer.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg-2.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg-3.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-func.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ptr-problems.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._ref-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._strings.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._struct.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._type-conv.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/__MACOSX/c_tut/src/._types.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/argc-argv.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array-ptr.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/array.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/calc.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/file.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/functions.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/hello.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/if-then-else.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/mem-alloc.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/pointer.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg-2.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg-3.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-func.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ptr-problems.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/ref-arg.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/strings.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/struct.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/type-conv.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/types.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/c_tut/src/words.c">
+			<Option target="OriWeissLab01"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ori&apos;s Lenovo/Desktop/School/comp_232/OriWeissLab01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

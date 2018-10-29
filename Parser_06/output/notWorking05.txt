@@ -1,0 +1,24 @@
+Author: Ori Weiss
+Class 232
+10/13/2018
+
+
+This test does should report error is online 6, the word repeat is missing
+input is
+
+firstvar = 1;
+secondvar = 2;
+repeat (10)
+ thirdvar = 2 * (firstvar % secondvar) / (firstvar + 2);;
+repeat (firstvar + 2 * secondvar)
+ (thirdvar)
+  print -firstvar;;;
+
+
+  output is
+
+  "/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/cmake-build-debug/parser"
+  PARSING ERROR: No valid token given
+  Exiting...
+
+  Process finished with exit code 1

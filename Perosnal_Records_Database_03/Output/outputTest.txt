@@ -1,0 +1,160 @@
+/*
+ * Author: Ori Weiss
+ * 9/25/2018
+ * Comp 232
+ * Lab03
+ */
+
+
+
+TEST 1(MAYA IS FIRST)
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/cmake-build-debug/personnel"
+Enter the initial number of records:
+3
+3
+Please in put your name, age, height, and your bday
+Maya 21 5.9 8/2/1990
+Maya 21 5.9 8/2/1990
+Please in put your name, age, height, and your bday
+Greg 22 6.2 4/15/1989
+Greg 22 6.2 4/15/1989
+Please in put your name, age, height, and your bday
+Frank 100 9 5/4/1923
+Frank 100 9 5/4/1923
+Displaying database
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990 
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+
+--> Searching database for Maya
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990
+
+--> Removing Maya from database
+Displaying database
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+
+--> Adding new record to database
+Please in put your name, age, height, and your bday
+Zach 22 5.8 2/20/1989
+Zach 22 5.8 2/20/1989
+Displaying database
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+
+--> Clearing database
+Displaying database
+
+Process finished with exit code 0
+
+
+
+TEST 2 (MAYA IS LAST)
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/cmake-build-debug/personnel"
+Enter the initial number of records:
+3
+3
+Please in put your name, age, height, and your bday
+Zach 22 5.8 2/20/1989
+Zach 22 5.8 2/20/1989
+Please in put your name, age, height, and your bday
+Ange 23 5.6 7/3/1987
+Ange 23 5.6 7/3/1987
+Please in put your name, age, height, and your bday
+Maya 21 5.9 8/2/1990
+Maya 21 5.9 8/2/1990
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990 
+
+--> Searching database for Maya
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990
+
+--> Removing Maya from database
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+
+--> Adding new record to database
+Please in put your name, age, height, and your bday
+Matt 24 6.5 6/5/1986
+Matt 24 6.5 6/5/1986
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+
+--> Clearing database
+Displaying database
+
+Process finished with exit code 0
+
+
+TEST 3(LARGE DATA SET WITH MAYA NOT FIRST OR LAST)
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/cmake-build-debug/personnel"
+Enter the initial number of records:
+7
+7
+Please in put your name, age, height, and your bday
+Zach 22 5.8 2/20/1989
+Zach 22 5.8 2/20/1989
+Please in put your name, age, height, and your bday
+Maya 21 5.9 8/2/1990
+Maya 21 5.9 8/2/1990
+Please in put your name, age, height, and your bday
+Ange 23 5.6 7/3/1987
+Ange 23 5.6 7/3/1987
+Please in put your name, age, height, and your bday
+Greg 22 6.2 4/15/1989
+Greg 22 6.2 4/15/1989
+Please in put your name, age, height, and your bday
+Matt 24 6.5 6/5/1986
+Matt 24 6.5 6/5/1986
+Please in put your name, age, height, and your bday
+Bob 50 8 3/23/1900
+Bob 50 8 3/23/1900
+Please in put your name, age, height, and your bday
+Frank 100 9 5/4/1923
+Frank 100 9 5/4/1923
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Matt Age is: 24 Height is: 6.500000 Birthday is: 6/5/1986 
+Name is: Bob Age is: 50 Height is: 8.000000 Birthday is: 3/23/1900 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+
+--> Searching database for Maya
+Name is: Maya Age is: 21 Height is: 5.900000 Birthday is: 8/2/1990
+
+--> Removing Maya from database
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Matt Age is: 24 Height is: 6.500000 Birthday is: 6/5/1986 
+Name is: Bob Age is: 50 Height is: 8.000000 Birthday is: 3/23/1900 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+
+--> Adding new record to database
+Please in put your name, age, height, and your bday
+AJ 99 88 1/1/1919
+AJ 99 88 1/1/1919
+Displaying database
+Name is: Zach Age is: 22 Height is: 5.800000 Birthday is: 2/20/1989 
+Name is: Ange Age is: 23 Height is: 5.600000 Birthday is: 7/3/1987 
+Name is: Greg Age is: 22 Height is: 6.200000 Birthday is: 4/15/1989 
+Name is: Matt Age is: 24 Height is: 6.500000 Birthday is: 6/5/1986 
+Name is: Bob Age is: 50 Height is: 8.000000 Birthday is: 3/23/1900 
+Name is: Frank Age is: 100 Height is: 9.000000 Birthday is: 5/4/1923 
+Name is: AJ Age is: 99 Height is: 88.000000 Birthday is: 1/1/1919 
+
+--> Clearing database
+Displaying database
+
+Process finished with exit code 0

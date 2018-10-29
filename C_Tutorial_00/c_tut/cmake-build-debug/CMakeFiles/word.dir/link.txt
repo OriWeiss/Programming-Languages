@@ -1,0 +1,1 @@
+/usr/bin/gcc -m64 -g -O0 -D_DEBUG -Wall -g   CMakeFiles/word.dir/src/calc.c.o  -o word 

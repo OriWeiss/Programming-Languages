@@ -1,0 +1,66 @@
+Author: Ori Weiss
+comp 232
+10/26/2018
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t2/ciProlog/cmake-build-debug/ciprolog"
+
+?- assert('It rains')
+assert('It rains')
+=> TRUE
+
+?- 'It rains'
+'It rains'
+=> TRUE
+
+?- assert('It is cold')
+assert('It is cold')
+=> TRUE
+
+?- 'It is cold'
+'It is cold'
+=> TRUE
+
+?- 'It rains' AND 'It is cold'
+'It rains' AND 'It is cold'
+=> TRUE
+
+?- retract('It is sunny')
+retract('It is sunny')
+=> FALSE
+
+?- 'It rains' OR 'It is sunny'
+'It rains' OR 'It is sunny'
+=> TRUE
+
+?- NOT ('It rains' OR 'It is cold')
+NOT ('It rains' OR 'It is cold')
+=> FALSE
+
+?- 'It rains' AND 'It is sunny'
+'It rains' AND 'It is sunny'
+=> FALSE
+
+?- NOT ('It rains' AND 'It is sunny')
+NOT ('It rains' AND 'It is sunny')
+=> TRUE
+
+?- retract('It rains')
+retract('It rains')
+=> TRUE
+
+?- 'It rains'
+'It rains'
+=> FALSE
+
+?- 'It rains' OR 'It is cold'
+'It rains' OR 'It is cold'
+=> TRUE
+
+?- 'It rains' AND 'It is cold'
+'It rains' AND 'It is cold'
+=> FALSE
+
+?- halt
+halt
+
+Process finished with exit code 0

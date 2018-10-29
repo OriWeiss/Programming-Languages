@@ -1,0 +1,75 @@
+/*
+ * Author: Ori Weiss
+ * Lab 1 part 1 output
+ * 9/12/2018
+ */
+
+NOTE: My console copies the input twice so if you see two of the same input only count it as one
+ TEST SAMPLE 1- testing with 2 batches
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab12/cmake-build-debug/processor"
+1 helloTest
+1 helloTest
+2 1 2 3 4 5
+2 1 2 3 4 5
+3 1.1 2.2 3.3 4.4
+3 1.1 2.2 3.3 4.4
+4 hello test1 test2 test3 test4
+4 hello test1 test2 test3 test4
+Type 1:  helloTest
+Type 2:  1,2,3,4,5
+Type 3:  1.100000/2.200000/3.300000/4.400000
+Type 4:  hello test1 test2 test3 test4
+1 testingWith2Batches
+1 testingWith2Batches
+2 10 11 12 13 14 15
+2 10 11 12 13 14 15
+3 11.1 12.1  13.1 14.1
+3 11.1 2.1 13.1 14.1
+4 tst11 tst22 tst33 tst44 tst55
+4 tst11 tst22 tst33 tst44 tst55
+Type 1:  testingWith2Batches
+Type 2:  10,11,12,13,14
+Type 3:  11.100000/2.100000/13.100000/14.100000
+Type 4:  tst11 tst22 tst33 tst44 tst55
+END
+END
+Number of message batches: 2
+Messages processed:
+Total: 8
+Type 1: 2
+Type 2: 2
+Type 3: 2
+Type 4: 2
+
+Process finished with exit code 0
+
+
+TEST SAMPLE 2- testing with one full batch and one incomplete batch
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab12/cmake-build-debug/processor"
+1 hello1
+1 hello1
+2 1 2 3 4 5
+2 1 2 3 4 5
+3 1.1 2.2 3.3 4.4
+3 1.1 2.2 3.3 4.4
+4 test1 test2 test3 test4 test5
+4 test1 test2 test3 test4 test5
+Type 1:  hello1
+Type 2:  1,2,3,4,5
+Type 3:  1.100000/2.200000/3.300000/4.400000
+Type 4:  test1 test2 test3 test4 test5
+1 incompleteBatch
+1 incompleteBatch
+END
+END
+Type 1:  incompleteBatch
+Number of message batches: 2
+Messages processed:
+Total: 5
+Type 1: 2
+Type 2: 1
+Type 3: 1
+Type 4: 1
+
+Process finished with exit code 0

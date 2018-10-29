@@ -1,0 +1,212 @@
+Author: Ori Weiss
+comp 232
+Date: 10/26/2018
+
+
+"/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab8_t1/cmake-build-debug/calc"
+
+> (neg 2)
+(neg 2)
+lex: LPAREN
+lex: FUNC sval = neg
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns -2.000000
+lex: EOL
+yacc: program ::= s_expr
+-2.000000
+
+> (abs(neg 2 ))
+(abs(neg 2 ))
+lex: LPAREN
+lex: FUNC sval = abs
+lex: LPAREN
+lex: FUNC sval = neg
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns -2.000000
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns 2.000000
+lex: EOL
+yacc: program ::= s_expr
+2.000000
+
+> (exp 2)
+(exp 2)
+lex: LPAREN
+lex: FUNC sval = exp
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns 7.389056
+lex: EOL
+yacc: program ::= s_expr
+7.389056
+
+> (sqrt 4)
+(sqrt 4)
+lex: LPAREN
+lex: FUNC sval = sqrt
+lex: NUMBER dval = 4.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns 2.000000
+lex: EOL
+yacc: program ::= s_expr
+2.000000
+
+> (add 2 4)
+(add 2 4)
+lex: LPAREN
+lex: FUNC sval = add
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 4.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 6.000000
+lex: EOL
+yacc: program ::= s_expr
+6.000000
+
+> (sub 2 3)
+(sub 2 3)
+lex: LPAREN
+lex: FUNC sval = sub
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 3.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns -1.000000
+lex: EOL
+yacc: program ::= s_expr
+-1.000000
+
+> (mult 4 6)
+(mult 4 6)
+lex: LPAREN
+lex: FUNC sval = mult
+lex: NUMBER dval = 4.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 6.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 24.000000
+lex: EOL
+yacc: program ::= s_expr
+24.000000
+
+
+> (div 6 3)
+(div 6 3)
+lex: LPAREN
+lex: FUNC sval = div
+lex: NUMBER dval = 6.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 3.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 2.000000
+lex: EOL
+yacc: program ::= s_expr
+2.000000
+
+> (remainder 5 4)
+(remainder 5 4)
+lex: LPAREN
+lex: FUNC sval = remainder
+lex: NUMBER dval = 5.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 4.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+1.000000
+
+> (log 10)
+(log 10)
+lex: LPAREN
+lex: FUNC sval = log
+lex: NUMBER dval = 10.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+1.000000
+
+> (log 20)
+(log 20)
+lex: LPAREN
+lex: FUNC sval = log
+lex: NUMBER dval = 20.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+src returns 1.301030
+lex: EOL
+yacc: program ::= s_expr
+1.301030
+
+> (pow 2 2)
+(pow 2 2)
+lex: LPAREN
+lex: FUNC sval = pow
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 4.000000
+lex: EOL
+yacc: program ::= s_expr
+4.000000
+
+> (max 5 4)
+(max 5 4)
+lex: LPAREN
+lex: FUNC sval = max
+lex: NUMBER dval = 5.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 4.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 5.000000
+lex: EOL
+yacc: program ::= s_expr
+5.000000
+
+> (min 100 1)
+(min 100 1)
+lex: LPAREN
+lex: FUNC sval = min
+lex: NUMBER dval = 100.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 1.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+src returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+1.000000
+
+>

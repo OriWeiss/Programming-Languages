@@ -1,0 +1,13 @@
+Author: Ori Weiss
+Class 232
+10/13/2018
+
+The following file was inputted notice that the second line is missing a semicolon
+
+firstvar = 1;
+secondvar = 2
+
+output is
+
+PARSING ERROR: no semicolon
+Exiting...

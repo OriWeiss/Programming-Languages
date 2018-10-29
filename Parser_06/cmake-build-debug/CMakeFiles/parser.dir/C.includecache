@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/eval.c
+eval.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/eval.h
+parser.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/parser.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/eval.h
+parser.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/parser.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/main.c
+eval.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/eval.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/parser.c
+parser.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/parser.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/parser.h
+stdio.h
+-
+stdlib.h
+-
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/scanner.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/scanner_ad_hoc.c
+scanner.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/src/scanner.h
+

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/list.c
+list.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/list.h
+person.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/person.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/list.h
+stdio.h
+-
+stdlib.h
+-
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+person.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/person.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/person.c
+person.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/person.h
+
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/person.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+list.h
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab03/lab3_personnel/src/list.h
+

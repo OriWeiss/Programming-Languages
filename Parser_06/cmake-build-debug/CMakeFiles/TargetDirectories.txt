@@ -1,0 +1,3 @@
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/cmake-build-debug/CMakeFiles/parser.dir
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab06/cmake-build-debug/CMakeFiles/edit_cache.dir

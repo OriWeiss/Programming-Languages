@@ -1,0 +1,3 @@
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab07/cmake-build-debug/CMakeFiles/flex_t1.dir
+/mnt/c/Users/Ori's Lenovo/Desktop/School/comp_232/OriWeissLab07/cmake-build-debug/CMakeFiles/edit_cache.dir
